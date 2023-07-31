@@ -4,8 +4,8 @@
                     <div class="row">
                         <div class="col-md-8">
                             <ul class="top-contact list-text-white  d-table">
-                                <li><a href="#"><i class="fas fa-phone-alt text-success mr-1"></i>+1 243-765-4321</a></li>
-                                <li><a href="#"><i class="fas fa-envelope text-success mr-1"></i>codeastro@realestatest.com</a></li>
+                                <li><a href="#"><i class="fas fa-phone-alt text-success mr-1"></i>+977 9811111111</a></li>
+                                <li><a href="#"><i class="fas fa-envelope text-success mr-1"></i>contact@edera.com</a></li>
                             </ul>
                         </div>
                         <div class="col-md-4">
@@ -50,7 +50,6 @@
 											<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Account</a>
 											<ul class="dropdown-menu">
 												<li class="nav-item"> <a class="nav-link" href="profile.php">Profile</a> </li>
-												<!-- <li class="nav-item"> <a class="nav-link" href="request.php">Property Request</a> </li> -->
 												<li class="nav-item"> <a class="nav-link" href="feature.php">Your Property</a> </li>
 												<li class="nav-item"> <a class="nav-link" href="logout.php">Logout</a> </li>	
 											</ul>

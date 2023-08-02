@@ -45,16 +45,6 @@ include("config.php");
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
-<div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
-	<div class="d-flex justify-content-center y-middle position-relative">
-	  <div class="spinner-border" role="status">
-		<span class="sr-only">Loading...</span>
-	  </div>
-	</div>
-</div>
---> 
 
 
 <div id="page-wrapper">
@@ -101,8 +91,7 @@ include("config.php");
 								$city=$_REQUEST['city'];
 								
 								$sql="SELECT property.*, user.uname FROM `property`,`user` WHERE property.uid=user.uid and type='{$type}' and stype='{$stype}' and city='{$city}'";
-								//SELECT * FROM `property` WHERE type='office' or type='office' and stype='sale' or stype='rent' and city='valsad' OR state='mumbai'
-								//SELECT * FROM `property` WHERE type='office' and stype='sale'  and city='valsad' OR state='mumbai'
+								
 								$result=mysqli_query($con,$sql);
 							
 								if(mysqli_num_rows($result)>0)
@@ -131,7 +120,7 @@ include("config.php");
                                         </div>
                                     </div>
                                 </div>
-                            </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                            </div>
                             <?php 		
 										} 
 					
@@ -149,21 +138,8 @@ include("config.php");
 
                             
                             
-                        <!--    <div class="col-md-12">
-                                <nav aria-label="Page navigation">
-                                    <ul class="pagination justify-content-center mt-4">
-                                        <li class="page-item disabled"> <span class="page-link">Previous</span> </li>
-                                        <li class="page-item active" aria-current="page"> <span class="page-link"> 1 <span class="sr-only">(current)</span> </span> </li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item">...</li>
-                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                        <li class="page-item"> <a class="page-link" href="#">Next</a> </li>
-                                    </ul>
-                                </nav>
-                            </div>  -->
                         </div>
-                    </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                    </div>
 					
                     <div class="col-lg-4">
                         <div class="sidebar-widget">
